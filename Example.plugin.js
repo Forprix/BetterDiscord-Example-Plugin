@@ -22,11 +22,11 @@ class Example {
 	}
 	//enabling plugin
 	start() {
-        console.log(`${this.getName()} start()`)
+        	console.log(`${this.getName()} start()`)
 	}
 	//disabling plugin
 	stop() {
-        console.log(`${this.getName()} stop()`)
+        	console.log(`${this.getName()} stop()`)
 	}
 
 }
