@@ -1,14 +1,16 @@
 //META{"name":"Example","displayName":"Example Plugin"}*//
 
 class Example {
-	//misc
-	unload() { }
 	constructor() { }
+	
+	load() { }
+	unload() { }
+	
+	//no idea what these do honestly 
 	initialize() { }
 	onMessage() { } 
 	observer(e) { } 
 	onSwitch() { }
-	load() { } 
 
 	//meta
 	getName() { return "Example"; }
@@ -20,6 +22,7 @@ class Example {
 	getSettingsPanel() {
 		return "<b>Enter something: </b><input></input>"
 	}
+	
 	//enabling plugin
 	start() {
         	console.log(`${this.getName()} start()`)
